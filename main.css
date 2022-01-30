@@ -1,17 +1,18 @@
 body{
     margin: 0%;
     padding: 0%;
-    background: url(skull42.png);
+    background: #101B49;
+    margin: auto;
     background-size: cover;
 }
 .box{
     width: 450px;
-    background: #af3030;
+    background: #000000;
     padding: 40px;
     text-align: center;
     margin: auto;
     margin-top: 5%;
-    color: #fff;
+    color: #ffffff;
 }
 .box img{
     border-radius: 50%;
@@ -46,10 +47,10 @@ u1{
     list-style: none;
 }
 .box li a{
-    color: white;
+    color: #2857C8;
     font-size: 60px;
     transition: all ease-in-out 250ms;
 }
 .box li a:hover{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
