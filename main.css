@@ -5,6 +5,7 @@ body{
     margin: auto;
     background-size: cover;
 }
+
 .box{
     width: 450px;
     background: #000000;
@@ -14,6 +15,7 @@ body{
     margin-top: 5%;
     color: #ffffff;
 }
+
 .box img{
     border-radius: 50%;
     width: 200px;
@@ -53,4 +55,49 @@ u1{
 }
 .box li a:hover{
     color: rgb(255, 255, 255);
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .box{
+        width: 250px;
+        background: #000000;
+        padding: 40px;
+        text-align: center;
+        margin: auto;
+        margin-top: 20%;
+        color: #ffffff;
+    }
+
+    .box h1{
+        font-size: 35px;
+    }
+    .box h5{
+        font-size: 20px;
+        font-weight: 100;
+        letter-spacing: 2px;
+    }
+
+    .box p{
+        font-size: 18px;
+        text-align: center;
+    }
+    u1{
+        margin: 0;
+        padding: 0;
+    }
+    .box li{
+        display: inline-block;
+        margin: 6px;
+        list-style: none;
+    }
+    .box li a{
+        color: #2857C8;
+        font-size: 50px;
+        transition: all ease-in-out 250ms;
+    }
+    .box li a:hover{
+        color: #ffffff;
+    }
+
 }
